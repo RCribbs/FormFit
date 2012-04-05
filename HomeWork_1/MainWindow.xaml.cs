@@ -44,6 +44,15 @@ namespace HomeWork_1
             title.Text = titleText;
         }
 
+        //Sets up the screen for results after an exercise.
+        private void Results_Screen()
+        {
+            stackPanel1.Opacity = 0;
+            back_button.Opacity = 1;
+            title.Text = title.Text + " Performance";
+            back_button.Content = "Return";
+        }
+
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             button1.Content = "All Stretch";
@@ -77,7 +86,11 @@ namespace HomeWork_1
 
         private void back_button_Click(object sender, RoutedEventArgs e)
         {
-            Initialize_Screen();
+            if (stackPanel1.Opacity == 1 || title.Text.Contains("Performance"))
+                Initialize_Screen();
+            else
+                Results_Screen();
         }
+
     }
 }
