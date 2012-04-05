@@ -93,45 +93,12 @@
     <AppDesigner Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\GOT.jpg" />
+    <Folder Include="Media\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\BBAD.jpg" />
-    <Resource Include="Images\COMM.jpg" />
-    <Resource Include="Images\HOWS.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\AHS.jpg" />
-    <Resource Include="Images\HIMYM.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\TV.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\MUSIC.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\PLAY.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\ANGLES.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\LMFAO.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Images\DEDMAU.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Media\DMRYW.mp3">
+    <Resource Include="Images\BBBenchPress.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Media\LMFAO.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Media\TSUCOD.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </Resource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

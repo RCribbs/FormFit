@@ -8,8 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/dmryw.mp3")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/lmfao.mp3")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("media/tsucod.mp3")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/bbbenchpress.gif")]
 
 

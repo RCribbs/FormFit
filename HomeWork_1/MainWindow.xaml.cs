@@ -34,12 +34,14 @@ namespace HomeWork_1
 
             title.Opacity = 1;
             stackPanel1.Opacity = 1;
+            back_button.Opacity = 0;
         }
 
         //Sets up screen for exercise.
         private void Exercise_Screen(string titleText)
         {
             stackPanel1.Opacity = 0;
+            back_button.Content = "Finish";
             back_button.Opacity = 1;
             title.Text = titleText;
         }
@@ -57,6 +59,8 @@ namespace HomeWork_1
         {
             button1.Content = "All Stretch";
             title.Text = "Choose Your Stretch";
+            back_button.Content = "Back";
+            back_button.Opacity = 1;
         }
 
         private void button2_Click(object sender, RoutedEventArgs e)
