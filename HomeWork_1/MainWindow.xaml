@@ -1,27 +1,43 @@
 ﻿<Window x:Class="HomeWork_1.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="500" Width="525"
-        Loaded="Window_Loaded">
+        Title="MainWindow" Height="720" Width="1280"
+        Loaded="Window_Loaded" xmlns:my="clr-namespace:Microsoft.Samples.Kinect.WpfViewers;assembly=Microsoft.Samples.Kinect.WpfViewers">
     <Canvas>
-        <TextBlock Canvas.Left="0" Canvas.Top="75" Text="Choose Your Exercise" Height="30" Name="title" Width="503" TextAlignment="Center" FontSize="26"/>
-        <StackPanel Canvas.Left="50" Canvas.Top="175" Height="274" Name="stackPanel1" Width="400" Orientation="Vertical">
+        <my:KinectSensorChooser Canvas.Left="0" Canvas.Top="0" Name="kinectSensorChooser1" Width="253" Height="105" />
+        <TextBlock Canvas.Left="0" Canvas.Top="75" Text="Choose Your Exercise" Height="64" Name="title" Width="1258" TextAlignment="Center" FontSize="40"/>
+        <StackPanel Canvas.Left="50" Canvas.Top="175" Height="500" Name="stackPanel1" Width="1150" Orientation="Vertical">
             <StackPanel Name="stackPanel2" Orientation="Horizontal">
-                <Button Content="Stretch" Height="75" Name="button1" Width="100" Click="button1_Click" />
-                <Separator Height="5" Name="separator1" Width="50" Opacity="0"/>
-                <Button Content="Barbell Row" Height="75" Name="button2" Width="100" Click="button2_Click" />
-                <Separator Height="5" Name="separator2" Width="50" Opacity="0"/>
-                <Button Content="Deadlift" Height="75" Name="button3" Width="100" Click="button3_Click" />
+                <Button  Height="200" Name="button1" Width="250" Click="button1_Click" >
+                    <Label Content="Stretch" FontSize="40" Name="label1"/>
+                </Button >
+                <Separator Height="5" Name="separator1" Width="200" Opacity="0"/>
+                <Button Height="200" Name="button2" Width="250" Click="button2_Click" >
+                    <Label Content="Barbell Row" FontSize="40" Name="label2"/>
+                </Button >
+                <Separator Height="5" Name="separator2" Width="200" Opacity="0"/>
+                <Button Height="200" Name="button3" Width="250" Click="button3_Click"  >
+                    <Label Content="Deadlift" FontSize="40" Name="label3" />
+                </Button >
             </StackPanel>
             <Separator Height="50" Width="5" Opacity="0"/>
             <StackPanel Name="stackPanel3" Orientation="Horizontal">
-                <Button Content="Bench Press" Height="75" Name="button4" Width="100" Click="button4_Click" />
-                <Separator Height="5" Name="separator3" Width="50" Opacity="0"/>
-                <Button Content="Overhead Press" Height="75" Name="button5" Width="100" Click="button5_Click" />
-                <Separator Height="5" Name="separator4" Width="50" Opacity="0"/>
-                <Button Content="Squat" Height="75" Name="button6" Width="100" Click="button6_Click" />
+                <Button Height="200" Name="button4" Width="250" Click="button4_Click" >
+                    <Label Content="Bench Press" FontSize="40" Name="label4"/>
+                </Button >
+                <Separator Height="5" Name="separator3" Width="200" Opacity="0"/>
+                <Button Height="200" Name="button5" Width="250" Click="button5_Click" >
+                    <Label Content="Overhead Press" FontSize="40" Name="label5"/>
+                </Button >
+                <Separator Height="5" Name="separator4" Width="200" Opacity="0"/>
+                <Button Height="200" Name="button6" Width="250" Click="button6_Click" >
+                    <Label Content="Squat" FontSize="40" Name="label6"/>
+                </Button >
             </StackPanel>
         </StackPanel>
-        <Button Canvas.Right="10" Canvas.Top="10" Content="Finish" Height="50" Name="back_button" Width="75" Opacity="0" Click="back_button_Click"/>
+        <Button Canvas.Right="10" Canvas.Top="10" Height="150" Name="back_button" Width="175" Opacity="0" Click="back_button_Click" >
+            <Label Content="Finish" FontSize="40" Name="back_button_label"/>
+        </Button >
+        <Ellipse Canvas.Left="418" Canvas.Top="30" Height="30" Name="rightEllipse" Stroke="Black" Width="30"/>
     </Canvas>
 </Window>

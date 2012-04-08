@@ -12,3 +12,8 @@ C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\obj\x86\
 C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\obj\x86\Debug\HomeWork_1.exe
 C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\obj\x86\Debug\HomeWork_1.pdb
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\bin\Debug\Microsoft.Samples.Kinect.WpfViewers.pdb
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\bin\Debug\Coding4Fun.Kinect.Wpf.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Users\Rohan\Documents\Visual Studio 2010\Projects\FormFit\HomeWork_1\bin\Debug\Coding4Fun.Kinect.Wpf.pdb
