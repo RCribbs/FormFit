@@ -39,5 +39,6 @@
             <Label Content="Finish" FontSize="40" Name="back_button_label"/>
         </Button >
         <Ellipse Canvas.Left="418" Canvas.Top="30" Height="30" Name="rightEllipse" Stroke="Black" Width="30"/>
+        <my:KinectColorViewer Canvas.Left="576" Canvas.Top="180" Name="kinectColorViewer1" DataContext="{Binding}" Width="640" Height="480" Kinect="{Binding ElementName=kinectSensorChooser1, Path=Kinect}" Opacity="0" />
     </Canvas>
 </Window>

@@ -125,6 +125,7 @@ namespace HomeWork_1
             title.Opacity = 1;
             stackPanel1.Opacity = 1;
             back_button.Opacity = 0;
+            kinectColorViewer1.Opacity = 0;
         }
 
         //Sets up screen for exercise.
@@ -136,6 +137,7 @@ namespace HomeWork_1
             title.Text = titleText;
             if ((label1.Content.ToString() == "All Stretch") && titleText != "All Stretch")
                 title.Text += " Stretch";
+            kinectColorViewer1.Opacity = 100;
         }
 
         //Sets up the screen for results after an exercise.
